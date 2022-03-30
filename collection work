@@ -1,0 +1,16 @@
+package collctionframe;
+import java.util.ArrayList;
+import java.util.Collections;
+public class sort {
+	public static void main(String[] args) {
+	ArrayList<Integer> numbers = new ArrayList();
+	numbers.add(10);
+	numbers.add(2);
+	numbers.add(6);
+	numbers.add(9);
+	System.out.println("unsorted array " + numbers);
+	Collections.shuffle(numbers);
+     System.out.println("sorted " + numbers);
+	}
+
+}
